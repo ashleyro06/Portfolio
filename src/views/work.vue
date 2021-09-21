@@ -21,23 +21,6 @@ export default {
     computed: {
         ...mapState('projects', ['projects']),
     },
-    // methods: {
-    //     changeScrollDirection() {
-    //         var transformScroll = () => {
-    //             if (!event.deltaY) {
-    //                 return
-    //             }
-    //             event.currentTarget.scrollLeft += event.deltaY + event.deltaX
-    //             event.preventDefault()
-    //         }
-    //         document
-    //             .getElementById('general')
-    //             .addEventListener('wheel', transformScroll)
-    //     },
-    // },
-    mounted() {
-        // this.changeScrollDirection()
-    },
 }
 </script>
 
