@@ -15,11 +15,15 @@
             <!-- <router-link to="/administracion/videos">
                 <span>ABOUT ME</span>
             </router-link> -->
-            <router-link to="/">
-                <span>HOME</span>
+            <router-link to="/" class="nav-link">
+                <span :class="activeRoute == 'Home' ? 'text-yellow' : ''"
+                    >HOME</span
+                >
             </router-link>
-            <router-link to="/work">
-                <span>WORK</span>
+            <router-link to="/work" class="nav-link">
+                <span :class="activeRoute == 'Work' ? 'text-yellow' : ''"
+                    >WORK</span
+                >
             </router-link>
             <!-- <router-link to="/administracion/videos">
                 <span>EXPERIENCE</span>
@@ -37,6 +41,11 @@
 <script>
 export default {
     name: 'AdministrativeNavbar',
+    computed: {
+        activeRoute() {
+            return this.$route.name
+        },
+    },
 }
 </script>
 
@@ -44,5 +53,10 @@ export default {
 span {
     color: white;
     text-decoration: none;
+}
+.nav-link {
+    text-decoration: none !important;
+    color: white;
+    font-weight: 900 !important;
 }
 </style>
