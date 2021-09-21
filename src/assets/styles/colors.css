@@ -1,0 +1,23 @@
+:root {
+    --color-1: #000033;
+    --color-2: #ffd730;
+    --color-3: #00d986;
+    --color-4: #f4f3f8;
+    --color-5: #d0d0d0;
+    --text-color: #333333;
+}
+
+.bg-main {
+    background: var(--color-1);
+}
+.bg-yellow {
+    background: var(--color-2) !important;
+}
+
+.bg-light {
+    background: var(--color-4) !important;
+}
+
+.text-yellow {
+    color: var(--color-2) !important;
+}

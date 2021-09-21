@@ -1,0 +1,22 @@
+.p-inputtext {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem;
+    border: none !important;
+    padding: 18px 10px !important;
+    border-radius: 10px;
+    width: 100%;
+    transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.p-inputtext:enabled:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.p-inputtext::placeholder {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}

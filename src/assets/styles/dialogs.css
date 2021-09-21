@@ -1,0 +1,110 @@
+.p-dialog {
+  border-radius: 15px;
+  border: none;
+}
+.p-dialog .p-dialog-header {
+  border-bottom: none;
+  background: var(--color-4);
+  color: var(--text-color);
+  padding: 30px 20px 10px 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.p-dialog .p-dialog-header .p-dialog-title {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+.p-dialog .p-dialog-content {
+  background: var(--color-4);
+  color: var(--text-color);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 10px 20px 30px 20px;
+}
+.p-dialog .p-dialog-content .p-field label {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 15px;
+}
+.p-dialog .p-dialog-content .p-inputtext {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.p-dialog .p-dialog-content .p-inputtext::placeholder {
+  text-align: left;
+}
+
+.p-dialog .p-dialog-content .p-disabled,
+.p-dialog .p-dialog-content .p-component:disabled {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.p-dialog .p-dialog-content .a-input-icon-right {
+  border: none;
+  border-radius: 10px;
+  background: white;
+}
+.p-dialog .p-dialog-content .a-input-icon-right .p-inputtext {
+  margin: 0;
+}
+
+.p-dialog .a-buttons {
+  display: flex;
+  margin: 20px 0;
+}
+.p-dialog .a-buttons button:first-child {
+  margin-right: 10px;
+}
+
+.p-dialog .p-dialog-content .p-inputtext,
+.p-dialog .p-dialog-content .p-fileupload .p-button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.p-confirm-dialog .p-dialog-content {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.p-confirm-dialog .p-dialog-footer {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: var(--color-4);
+  color: var(--text-color);
+  border: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.p-toast .p-toast-message {
+  border-radius: 10px;
+}
+
+.p-toast .p-toast-message.p-toast-message-success {
+  background: #00d986;
+  border: none;
+  color: white;
+  font-weight: 900;
+}
+
+.p-toast .p-toast-message.p-toast-message-error {
+  background: #d90024;
+  border: none;
+  color: #d90024;
+  color: white;
+  font-weight: 900;
+}
+
+.p-toast .p-toast-message.p-toast-message-success .p-toast-message-icon,
+.p-toast .p-toast-message.p-toast-message-error .p-toast-message-icon {
+  display: none;
+}
+.p-toast .p-toast-message.p-toast-message-success .p-toast-icon-close,
+.p-toast .p-toast-message.p-toast-message-error .p-toast-icon-close {
+  color: white;
+}

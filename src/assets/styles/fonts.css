@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Photoshoot;
+  src: url(../fonts/Photoshoot/PHOTOSHOOT.OTF);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: normal;
+  src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 900;
+  src: url(../fonts/Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 800;
+  src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Quicksand;
+  src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+.photoshoot {
+  font-family: "Photoshoot";
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
