@@ -27,7 +27,7 @@ export default {
                             icon: 'https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/icons%2Fmaps.svg?alt=media&token=871b9a8c-a4f6-4d2d-a3b2-24b926bb63bc',
                         },
                     ],
-                    link: '',
+                    link: 'https://play.google.com/store/apps/details?id=com.gobierno_contigo.app&hl=es_CO&gl=US',
                     github: '',
                     illustration:
                         'https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/images%2Fgobierno.svg?alt=media&token=cdc72a9a-769b-4204-a670-a58e82beab2c',
@@ -81,7 +81,7 @@ export default {
                             icon: 'https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/icons%2Fpostgres.svg?alt=media&token=d645b158-c7f7-4fb5-9934-d52db2e410da',
                         },
                     ],
-                    link: '',
+                    link: 'https://graphicswebapp.web.app/',
                     github: '',
                     illustration:
                         'https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/images%2Fgraphics.svg?alt=media&token=135fb50e-db58-4316-81ca-1835ef7c89ed',
@@ -103,7 +103,7 @@ export default {
                         },
                     ],
                     link: '',
-                    github: '',
+                    github: 'https://github.com/coac-gmbh/okuna-app',
                     illustration:
                         'https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/images%2Fh2pro3.svg?alt=media&token=70ef91b3-5c44-462b-aad2-9490090f54b6',
                 },

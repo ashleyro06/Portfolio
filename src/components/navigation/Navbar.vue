@@ -21,9 +21,9 @@
             <router-link to="/work">
                 <span>WORK</span>
             </router-link>
-            <router-link to="/administracion/videos">
+            <!-- <router-link to="/administracion/videos">
                 <span>EXPERIENCE</span>
-            </router-link>
+            </router-link> -->
             <!-- <router-link to="/administracion/videos">
                 <span>CONTACT</span>
             </router-link> -->

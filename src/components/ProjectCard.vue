@@ -16,6 +16,7 @@
                 flex flex-row
                 align-items-center
                 justify-content-between
+                relative
             "
         >
             <img :src="project.illustration" class="w-6 project-img" />
@@ -59,6 +60,28 @@
                         class="h-3rem m-2"
                     />
                 </div>
+            </div>
+
+            <div
+                class="
+                    absolute
+                    w-full
+                    bottom-0
+                    flex
+                    justify-content-between
+                    left-0
+                    px-4
+                    py-4
+                "
+            >
+                <a target="_blank" :href="project.link" v-if="project.link">
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/icons%2Finternet.svg?alt=media&token=7bf74757-b7c2-4412-b30a-60135815d0f2"
+                /></a>
+                <a target="_blank" :href="project.github" v-if="project.github">
+                    <img
+                        src="https://firebasestorage.googleapis.com/v0/b/portfolio-8bc46.appspot.com/o/icons%2Fgithub.svg?alt=media&token=f5a8e4c4-01f9-4526-9e35-79a135d771f5"
+                /></a>
             </div>
         </div>
     </div>
